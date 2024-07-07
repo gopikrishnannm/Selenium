@@ -33,15 +33,15 @@ public class HandleAlerts {
 		 
 		//Alert with Cancel Button
 		
-//		driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
-//		
-//		Thread.sleep(3000);
-//		
-//		Alert confirm = driver.switchTo().alert();
-//		
-//		//confirm.accept();
-//		
-//		confirm.dismiss();
+		driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']")).click();
+		
+		Thread.sleep(3000);
+		
+		Alert confirm = driver.switchTo().alert();
+		
+		//confirm.accept();
+		
+		confirm.dismiss();
 		
 		
 	}
