@@ -9,12 +9,12 @@ public class FirstTest {
 		System.out.println("opening app");
 	}
 	
-	@Test
+	@Test(priority=1)
 	void login() {
 		System.out.println("login");
 	}
 	
-	@Test
+	@Test(priority=2)
 	void logout() {
 		System.out.println("logout");
 	}
