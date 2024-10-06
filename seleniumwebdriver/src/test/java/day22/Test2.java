@@ -43,7 +43,7 @@ public class Test2 {
 		
 		List<WebElement> allLinks = driver.findElements(By.tagName("a")); // img for image
 		
-		System.out.println(allLinks);
+		
 		
 		
 		
